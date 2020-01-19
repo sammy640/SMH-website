@@ -31,7 +31,7 @@ header {
 
 
 main {
-    overflow: auto;
+   
     padding-bottom: 100px;
 }
 
@@ -139,9 +139,18 @@ p {
     margin-right:130px;
 }
 
-#description {
+.description {
     margin-bottom: 50px;
     margin-top: 30px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.5s all ease-in-out;
+}
+
+.description_appear {
+    opacity: 1;
+    transform: translateY(0px);
+    
 }
 
 #indent {
@@ -161,6 +170,7 @@ p {
     margin-top: 0px;
     margin-bottom: 20px;
 }  
+
 
 h1 {
     margin-left: 30px;
@@ -322,15 +332,6 @@ h1 {
     
   }
 
- /*  #vivum_youtube {
-      margin-left: 20px;
-  }
-
-  #grad_youtube {
-      mar
-  } */
-
-
 #contact_break {
     margin-top: 75px;
 }
@@ -338,17 +339,11 @@ h1 {
 #bio_break {
     margin-left: -20px;
     margin-right: -20px;
-    margin-top: 50px;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 
 .contact {
 text-align: center;
 }
 
-footer {
-    position: absolute;
-    right: 0;
-    bottom:0;
-    left:0;
-    background-color: black;
-  }

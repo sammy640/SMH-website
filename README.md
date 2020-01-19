@@ -1,7 +1,7 @@
-#SMH Website
+# SMH Website
 
 ---
 
-#About
+## About
 
 A simple website I designed for my band, SMH.

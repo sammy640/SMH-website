@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
     color:white;
+    box-sizing: border-box;
 }
 
 body {
@@ -31,7 +32,7 @@ header {
 
 
 main {
-   
+    min-height: calc(100vh - 124.4px - 100px);
     padding-bottom: 100px;
 }
 
@@ -117,7 +118,7 @@ nav {
     transform: scale(0.6);
     position: absolute;
     top: 10px;
-    right: 00px;
+    right: 0px;
     padding:10px 14px;
     -o-transition:.5s;
     -ms-transition:.5s;
@@ -171,6 +172,29 @@ p {
     margin-bottom: 20px;
 }  
 
+.insta-container {
+    position: relative;
+    padding: 25px 20px;
+}
+
+.insta-title {
+    position: absolute;
+    right: 510px;
+    top: 10px;
+}
+
+.latest-container {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+}
+
+.lightwidget-widget {
+    width:50%;
+    border:0;
+    overflow:hidden;
+    padding-right: 20px;
+}
 
 h1 {
     margin-left: 30px;
@@ -198,9 +222,8 @@ h1 {
   .meet_container {
       position: relative;
       margin-top: 50px;
+      margin-bottom: 100px;
       display: grid;
-     /*  grid-template-columns: repeat(auto-fill, 1fr);
-      grid-template-rows: repeat(auto-fill,auto); */
       justify-items: center;
       align-items: center;
       grid-row-gap: 200px;
@@ -288,7 +311,6 @@ h1 {
     grid-row-gap: 10px;
 }
 
-
  .slides {
    width: 350px; 
    height: 300px; 
@@ -345,5 +367,40 @@ h1 {
 
 .contact {
 text-align: center;
+
 }
+
+#role {
+    padding-right: 25px;
+}
+
+footer {
+    padding: 50px;
+    background-color: black;
+    position: relative;
+}
+
+#facebook-footer {
+    transform: scale(1.5);
+    position: absolute;
+    left: 57%;
+    top: 10px;
+}
+
+#insta-footer {
+    transform: scale(1.5);
+    position: absolute;
+    left: 57%;
+    top: 10px;
+}
+
+#youtube-footer {
+    transform: scale(1.5);
+    position: absolute;
+    left: 57%;
+    top: 10px;
+}
+
+
+
 

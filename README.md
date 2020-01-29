@@ -4,4 +4,4 @@
 
 ## About
 
-A simple website I designed for my band, SMH.
+A website I designed for my band, SMH.

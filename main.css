@@ -4,19 +4,20 @@
 @import url('https://fonts.googleapis.com/css?family=Gayathri&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
 
+
 * {
-    font-family: 'Annie Use Your Telescope', 'Kaushan Script', sans-serif;
     margin: 0;
     padding: 0;
-    color:white;
+    color: white;
     box-sizing: border-box;
 }
 
 body {
+    font-family: 'Annie Use Your Telescope', 'Kaushan Script', sans-serif;
     position: relative;
     min-height: 100%;
     min-height: 100vh;
-    background-color:  rgb(37, 36, 36);
+    background-color: rgb(37, 36, 36);
     font-weight: 400;
     height: 100%;
 }
@@ -167,9 +168,11 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
+    width: 100%;
     margin-top: 0px;
     margin-bottom: 20px;
+    opacity: 0.2;
+    height: 800px;
 }  
 
 .insta-container {
@@ -216,7 +219,10 @@ h1 {
   }
 
   #slogan {
+      position: relative;
+      right: 20px;
       text-align: center;
+
   }
 
   .meet_container {
@@ -402,5 +408,133 @@ footer {
 }
 
 
+.latest-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.event-container {
+    width: 300px;
+    height: 600px
+}
+
+.collage-container {
+    position: relative; 
+}
+
+#title-container {
+    width: 100px;
+    position: relative;
+    left: 405px;
+}
+
+#insta-title {
+    top:40px;
+    position: relative;
+    left: 190px;
+}
+.insta-container {
+    top: 50px;
+    left: 280px;
+    width: 85%;
+    margin: 0;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 220px);
+    grid-template-rows: repeat(auto-fill, 200px);
+    justify-items: center;
+    align-items: center;
+    grid-row-gap: 0px;
+    grid-column-gap: 0px;
+}
 
 
+.insta {
+    width: 220px;
+    height: 200px;
+    border-radius: 1%;
+  
+}
+
+#upcoming {
+    top: 10px;
+    position: relative;
+    left: 25px;
+}
+
+#upcoming-body {
+    position: relative;
+    left: 190px;
+    top: 30px;
+}
+
+#past {
+    position: relative;
+    left: 25px;
+    top: 60px;
+}
+
+.date {
+    position: relative;
+    left: 120px;
+    top: 30px;
+    bottom:0px;
+    height: 200px;
+}
+
+#take-5 {
+    position: relative;
+    right: 127px;
+    bottom: 70px;
+}
+
+ #take-5 h1 {
+     color: black;
+    }
+
+    .calendar-container {
+        right: 120px;
+        bottom: 0px;
+        position: relative;
+    }
+
+.calendar {
+    width: 25%;
+    height:auto;
+    
+}
+
+#ignite-date p {
+    width: 200px;
+    position: relative;
+    right: 120px;
+    bottom: 147px;
+    
+}
+
+#ignite-location p {
+    width: 300px;
+    position: relative;
+    left: 30px;
+    bottom: 207px;
+}
+
+.location {
+    font-size: 20px;
+}
+
+.hero-title {
+    position: absolute;
+    top: 700px;
+    left: 440px;
+    font-size: 80px;
+}
+
+#hero-title-bio {
+    position: absolute;
+    top: 700px;
+    left: 400px;
+    font-size: 80px;
+}
